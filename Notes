@@ -1,0 +1,21 @@
+Needs:
+
+Header w Nav 
+    -Name
+    -Recent Photo
+        (needs links)
+    -about me 
+    -links to works
+    -Contact me
+
+
+Work section:
+    -titled images of applications
+    -1st application bigger than the rest
+    -links to applications when image clicked
+
+Flex Windows used to make contens scaleable to screens
+
+To Do 5/3:
+-add CSS sheet style header
+-attempt hero
