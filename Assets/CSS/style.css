@@ -47,20 +47,18 @@ body{
 
 }
 
-.container a{
+nav{
 
     text-decoration: none;
-    color: #072066;
-}
-
-.container nav{
+    color: white;
     display:flex;
     align-items: center;
     flex: 1 0 auto;
     justify-content: center;
 }
 
-.container nav ul{
+
+nav ul{
     display: flex;
     flex-wrap: wrap;
 
@@ -70,7 +68,7 @@ body{
     list-style: none;
 }
 
-.container nav ul li a{
+nav ul li a{
 
     padding: 10px 15px;
     font-weight: lighter;
@@ -188,4 +186,46 @@ body{
 
 
 /*media Queries*/
+@media screen and (max-width:768px){
 
+    .about-me{
+        flex-direction: column;
+    }
+    .apps{
+        flex-direction: column;
+
+    }
+
+    .contact-me{
+        flex-direction: column;
+    }
+
+    nav ul{
+        flex-direction: column;
+    }
+    
+    .section-title{
+        font-size: 36px;
+        color:#2A2A2B;
+        border-bottom:#072066 5px solid;
+        border-right: 0px;
+        text-align: left;
+        margin: 10px auto 35px auto;
+        width: 100%;
+        float: left;
+        padding: 30px;
+    
+    }
+    
+    .section-content{
+        padding: auto;
+        width: 100%;
+        display: flex;
+        align-content:center;
+        flex-wrap: wrap;
+        font-size:20px;
+        flex-direction: column;
+    }
+
+    
+}
