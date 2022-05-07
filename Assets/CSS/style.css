@@ -263,5 +263,17 @@ nav ul li a{
         flex-direction: column;
     }
 
+    .image-overlay{
+        opacity:1;
+    }
+
+    .section-content .app{
+        width:100%;
+        height: 50%;
+    }
+
+    .section-content .app .first{
+        height: 100%;
+    }
     
 }
