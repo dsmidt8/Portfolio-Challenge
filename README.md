@@ -1,21 +1,10 @@
-# 02 Advanced CSS: Portfolio
+# Week 2 Challenge - Portfolio
+.
 
-Welcome to this week's Challenge! This is an even-numbered week, so you won't be given any starter code. Instead, you'll create a web application from scratch! This week, you'll build a portfolio page, which you can add to as the course progresses. 
-
-A portfolio of work can showcase your skills and talents to employers looking to fill a part-time or full-time position. An effective portfolio highlights your strongest work as well as the thought processes behind it. Students who have portfolios with deployed web applications (meaning they are live on the web) are typically very successful in their career search after the boot camp. This last point can’t be stressed enough: at many companies, having several deployed projects is a minimum requirement to receive an initial interview. 
-
-With these points in mind, in this Challenge you’ll set yourself up for future success by applying the core skills you've recently learned: flexbox, media queries, and CSS variables. You'll get to practice your new skills while creating something that you'll use during your job search. It’s a win-win that you'll likely be grateful for in the future!
-
-**Note**: If you don't have enough web applications to showcase at this point, use placeholder images and names. You can change them to real applications as you create them later in the course.
-
-Let’s look at what a user story written from the perspective of a hiring manager might look like. As you might remember, we follow the AS AN / I WANT / SO THAT format.
-
-## User Story
+## Challenge:
 
 ```
-AS AN employer
-I WANT to view a potential employee's deployed portfolio of work samples
-SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
+Using CSS and HTML, build a website that displays developer's portfolio.
 ```
 
 ## Acceptance Criteria
@@ -43,17 +32,22 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
 
-The following animation shows the web application's appearance and functionality:
+## Process:
 
-![portfolio demo](./Assets/02-advanced-css-homework-demo.gif)
+To make this website I started with building the framework in HTML. 
 
-## Review
+I started working on the header first. 
 
-You are required to submit BOTH of the following for review:
+After looking at some other websites I liked the look of having the header and navigation in the hero. I then deleted the header and included the header elements in the hero.
 
-* The URL of the deployed application.
+I then worked on the content. The about me contains the profile picture and a short desctiption. As of 5/8/2022 the description is short with more to be added at a later date.
 
-* The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
+The Applications section contains stock images of websites due to me not having any of my own websites yet. They contain anchors to hold links to future websites, but there are no links due to not having my own websites.
 
-- - -
-© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+The contact me contains my email and phone number as list elements.
+
+
+The CSS element includes the styling for the page. A lot of this styling was created using trial and error to increase my abilites with the CSS language. 
+
+Using media queries, when the screen is resized elements change from a horizontal view to a verticle style. 
+
